@@ -1,5 +1,7 @@
 <<<<<<< HEAD
 # conffee-management-system
+[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![Avalonia](https://img.shields.io/badge/Avalonia-11.x-8B44AC)](https://avaloniaui.net/)
 
 ![Hero](public/images/hero.svg)
 
