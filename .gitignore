@@ -1,0 +1,44 @@
+# Build outputs
+/bin/
+/obj/
+**/bin/
+**/obj/
+
+# Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.ide
+.vs/
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+.nuget/
+
+# dotnet publish
+/publish/
+
+# Entity Framework
+*.db
+
+# docker
+**/docker-compose.override.yml
+
+# Node/npm
+node_modules/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Static webbuild artifacts
+src/**/wwwroot/dist/
