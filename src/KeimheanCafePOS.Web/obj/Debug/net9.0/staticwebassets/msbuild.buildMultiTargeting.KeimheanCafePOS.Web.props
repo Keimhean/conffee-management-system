@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/KeimheanCafePOS.Web.props" />
-</Project>
