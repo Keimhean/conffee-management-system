@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="230" fill="#8B4513"/>
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#5D2E0F" stroke-width="12"/>
+  
+  <!-- Coffee cup -->
+  <path d="M 180 200 L 200 200 L 220 380 L 292 380 L 312 200 L 332 200 L 310 390 C 310 400 305 410 295 410 L 217 410 C 207 410 202 400 202 390 Z" 
+        fill="#FFFFFF" stroke="#5D2E0F" stroke-width="8"/>
+  
+  <!-- Cup handle -->
+  <path d="M 332 220 Q 380 260 332 320" 
+        fill="none" stroke="#5D2E0F" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Coffee liquid -->
+  <path d="M 205 240 L 307 240 L 290 365 L 222 365 Z" 
+        fill="#6F4E37" opacity="0.8"/>
+  
+  <!-- Steam lines -->
+  <path d="M 230 170 Q 225 150 235 140" 
+        fill="none" stroke="#D2691E" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 256 160 Q 251 135 261 120" 
+        fill="none" stroke="#D2691E" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 282 170 Q 277 150 287 140" 
+        fill="none" stroke="#D2691E" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Saucer -->
+  <ellipse cx="256" cy="420" rx="90" ry="20" fill="#FFFFFF" stroke="#5D2E0F" stroke-width="6"/>
+</svg>
