@@ -9,3 +9,4 @@
 /Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/refint/KeimheanCafePOS.Domain.dll
 /Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.pdb
 /Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/ref/KeimheanCafePOS.Domain.dll
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.sourcelink.json

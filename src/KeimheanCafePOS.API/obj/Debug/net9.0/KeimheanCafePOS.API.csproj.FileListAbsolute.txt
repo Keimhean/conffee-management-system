@@ -150,3 +150,4 @@
 /Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/0eqbzfallj-bgw3bjc0dc.gz
 /Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/srpdbgmxqb-e0o1wlm026.gz
 /Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/nfigdb83tz-5kydu4zfzz.gz
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/KeimheanCafePOS.API.sourcelink.json

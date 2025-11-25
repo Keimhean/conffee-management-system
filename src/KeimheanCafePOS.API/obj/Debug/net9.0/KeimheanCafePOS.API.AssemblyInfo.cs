@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeimheanCafePOS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bffb9a2ac3a332fc2c5533d87667a22af7ae344c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeimheanCafePOS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeimheanCafePOS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
