@@ -14,6 +14,9 @@
 
 Keimhean Cafe POS — Point-of-sale application for coffee shops built with Avalonia UI and .NET 9
 
+<!-- Screenshot placeholder: replace `public/images/pos_screenshot.png` with your photo -->
+![POS Screenshot](public/images/pos_screenshot.png)
+
 Point-of-sale application for Keimhean Cafe — API, Desktop client, Web front-end.
 
 Contents
