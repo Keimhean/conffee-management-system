@@ -1,7 +1,9 @@
 <<<<<<< HEAD
-# coffee-management-system
-=======
-Keimhean Cafe POS
+# conffee-management-system
+
+![Hero](public/images/hero.svg)
+
+Keimhean Cafe POS — Point-of-sale application for coffee shops built with Avalonia UI and .NET 9
 
 Point-of-sale application for Keimhean Cafe — API, Desktop client, Web front-end.
 
