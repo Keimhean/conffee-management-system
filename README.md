@@ -9,7 +9,6 @@
 [![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![Docker MySQL phpMyAdmin](https://img.shields.io/badge/Docker_MySQL_phpMyAdmin-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/_/phpmyadmin)
-[![phpMyAdmin](https://img.shields.io/badge/phpMyAdmin-6C78AF?logo=phpmyadmin&logoColor=white)](https://www.phpmyadmin.net/)
 
 
 Keimhean Cafe POS — Point-of-sale application for coffee shops built with Avalonia UI and .NET 9
