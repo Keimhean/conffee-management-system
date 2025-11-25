@@ -2,6 +2,8 @@
 # conffee-management-system
 [![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![Avalonia](https://img.shields.io/badge/Avalonia-11.x-8B44AC)](https://avaloniaui.net/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker)](https://www.docker.com/)
+
 
 Keimhean Cafe POS — Point-of-sale application for coffee shops built with Avalonia UI and .NET 9
 
