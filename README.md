@@ -35,7 +35,7 @@ Contents
 - .NET 9 SDK
 - Docker & Docker Compose (for MySQL local DB)
 
-# conffee-management-system
+# coffee-management-system
 
 Keimhean Cafe POS — Point-of-sale application (API, Desktop client, Web front-end)
 
