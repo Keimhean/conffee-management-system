@@ -1,0 +1,4823 @@
+{
+  "Version": 1,
+  "Hash": "m5vycCt1c4aQ4h9piqXotkf3hDSPCvrxZSxd+Mov1gU=",
+  "Source": "KeimheanCafePOS.API",
+  "BasePath": "_content/KeimheanCafePOS.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "KeimheanCafePOS.API/wwwroot",
+      "Source": "KeimheanCafePOS.API",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/0eqbzfallj-bgw3bjc0dc.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/Snack#[.{fingerprint=bgw3bjc0dc}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Snack.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j5t4prawe3",
+      "Integrity": "ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Snack.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/3mr5g5atj8-zcjkkmfvq2.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/report#[.{fingerprint=zcjkkmfvq2}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/report.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "soj8ytwv2h",
+      "Integrity": "rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/report.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/5au5f5ge79-eqj9ggywly.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/icon-delete#[.{fingerprint=eqj9ggywly}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/icon-delete.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vjbh0hdw4r",
+      "Integrity": "RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/icon-delete.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/c6odsbrqg0-1yeetmm5x8.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/cart#[.{fingerprint=1yeetmm5x8}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/cart.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qn472hjrlo",
+      "Integrity": "Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/cart.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/kxjrfchhyh-bacteag7xy.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/Pastry#[.{fingerprint=bacteag7xy}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Pastry.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rkoi089vw6",
+      "Integrity": "FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Pastry.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/muwi9fo93c-w5dhwkxzjc.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/search#[.{fingerprint=w5dhwkxzjc}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/search.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "abc467r3ts",
+      "Integrity": "VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/search.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/nfigdb83tz-5kydu4zfzz.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "js/pos#[.{fingerprint=5kydu4zfzz}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/js/pos.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sodkoe9avh",
+      "Integrity": "TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/js/pos.js"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/rt6jm4r3ql-w88gr0omu4.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icon#[.{fingerprint=w88gr0omu4}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hq5lwiaelk",
+      "Integrity": "tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/srpdbgmxqb-e0o1wlm026.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/tea#[.{fingerprint=e0o1wlm026}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/tea.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4ddroiiuul",
+      "Integrity": "mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/tea.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/tg87zcrp84-dvz15mns34.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "css/pos#[.{fingerprint=dvz15mns34}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/css/pos.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yw0xy5slse",
+      "Integrity": "4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/css/pos.css"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/ttrp2ol7q1-8aj0xsd5c8.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/coffee-icon#[.{fingerprint=8aj0xsd5c8}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/coffee-icon.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1j5tbnht9d",
+      "Integrity": "w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/coffee-icon.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/xba9mtdwt2-imw8r59pbx.gz",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "favicon#[.{fingerprint=imw8r59pbx}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q9wm1kw05k",
+      "Integrity": "3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/css/pos.css",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "css/pos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvz15mns34",
+      "Integrity": "J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/pos.css"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/favicon.ico",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "imw8r59pbx",
+      "Integrity": "Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/heancoff.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "heancoff#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bmsj042412",
+      "Integrity": "o8dok4JhtwIbxs8JTFOfeBxs+PagBsN/NegRSV6AEJ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/heancoff.png"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon-192.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icon-192#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cude8zycoq",
+      "Integrity": "bC4ZrNVHPBuqDB8GoyvwRGuJ+4yT3GQyFOJ0KPDWXuc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon-192.png"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon-512.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icon-512#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i027wrgrt2",
+      "Integrity": "Ds6Aq9P6Wi70vSa/8UvKHZsvqHnFDD6jF7xlnNoOAQs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon-512.png"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w88gr0omu4",
+      "Integrity": "QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/cart.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/cart#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1yeetmm5x8",
+      "Integrity": "18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/cart.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/coffee-icon.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/coffee-icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8aj0xsd5c8",
+      "Integrity": "YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/coffee-icon.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/icon-delete.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/icon-delete#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eqj9ggywly",
+      "Integrity": "JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/icon-delete.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Pastry.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/Pastry#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bacteag7xy",
+      "Integrity": "c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/Pastry.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/report.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/report#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zcjkkmfvq2",
+      "Integrity": "A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/report.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/search.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/search#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w5dhwkxzjc",
+      "Integrity": "HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/search.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Snack.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/Snack#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bgw3bjc0dc",
+      "Integrity": "9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/Snack.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/tea.svg",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "icons/tea#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e0o1wlm026",
+      "Integrity": "ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icons/tea.svg"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/js/pos.js",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "js/pos#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5kydu4zfzz",
+      "Integrity": "y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/pos.js"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/keimheancoffeeLogo.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "keimheancoffeeLogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75ylrv2689",
+      "Integrity": "GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/keimheancoffeeLogo.png"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/logo.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75ylrv2689",
+      "Integrity": "GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/logo.png"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/mylogo-64.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "mylogo-64#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epsmozktgd",
+      "Integrity": "LsEVTuHnpULkpJjtt6bHGQ7kBJPoXlBZDSspiBB37ow=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/mylogo-64.png"
+    },
+    {
+      "Identity": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/mylogo.png",
+      "SourceId": "KeimheanCafePOS.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/",
+      "BasePath": "_content/KeimheanCafePOS.API",
+      "RelativePath": "mylogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "auz304t30f",
+      "Integrity": "zge3sUp6xVr/qUGPgHsMqlrf2Jn3eRqHrpK6K0ydr8E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/mylogo.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/pos.css",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/tg87zcrp84-dvz15mns34.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000540248514"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1850"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I="
+        }
+      ]
+    },
+    {
+      "Route": "css/pos.css",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/css/pos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I="
+        }
+      ]
+    },
+    {
+      "Route": "css/pos.css.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/tg87zcrp84-dvz15mns34.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI="
+        }
+      ]
+    },
+    {
+      "Route": "css/pos.dvz15mns34.css",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/tg87zcrp84-dvz15mns34.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000540248514"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1850"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvz15mns34"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I="
+        }
+      ]
+    },
+    {
+      "Route": "css/pos.dvz15mns34.css",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/css/pos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvz15mns34"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+fHrYBk6d7EecWwV2UddJ5A9/qxFIFbSdgQjRjI21I="
+        }
+      ]
+    },
+    {
+      "Route": "css/pos.dvz15mns34.css.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/tg87zcrp84-dvz15mns34.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvz15mns34"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pos.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4hip8O2TMkFbRFwpyxHph+A2OGNorzHiu9z3/CnZYSI="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/xba9mtdwt2-imw8r59pbx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000821692687"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1216"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/xba9mtdwt2-imw8r59pbx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.imw8r59pbx.ico",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/xba9mtdwt2-imw8r59pbx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000821692687"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1216"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imw8r59pbx"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.imw8r59pbx.ico",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imw8r59pbx"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Klbaf3dvIwAniUi+7i5DveEHiyAiJ3cEy6i+0kW+cp4="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.imw8r59pbx.ico.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/xba9mtdwt2-imw8r59pbx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1216"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imw8r59pbx"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3r21aJxgFrNNFhgQKqB1jjzuEO9/f5kk2ZbsNWNuLdQ="
+        }
+      ]
+    },
+    {
+      "Route": "heancoff.bmsj042412.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/heancoff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1303540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o8dok4JhtwIbxs8JTFOfeBxs+PagBsN/NegRSV6AEJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:40:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bmsj042412"
+        },
+        {
+          "Name": "label",
+          "Value": "heancoff.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o8dok4JhtwIbxs8JTFOfeBxs+PagBsN/NegRSV6AEJ0="
+        }
+      ]
+    },
+    {
+      "Route": "heancoff.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/heancoff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1303540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o8dok4JhtwIbxs8JTFOfeBxs+PagBsN/NegRSV6AEJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:40:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o8dok4JhtwIbxs8JTFOfeBxs+PagBsN/NegRSV6AEJ0="
+        }
+      ]
+    },
+    {
+      "Route": "icon-192.cude8zycoq.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bC4ZrNVHPBuqDB8GoyvwRGuJ+4yT3GQyFOJ0KPDWXuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cude8zycoq"
+        },
+        {
+          "Name": "label",
+          "Value": "icon-192.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bC4ZrNVHPBuqDB8GoyvwRGuJ+4yT3GQyFOJ0KPDWXuc="
+        }
+      ]
+    },
+    {
+      "Route": "icon-192.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon-192.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16657"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bC4ZrNVHPBuqDB8GoyvwRGuJ+4yT3GQyFOJ0KPDWXuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bC4ZrNVHPBuqDB8GoyvwRGuJ+4yT3GQyFOJ0KPDWXuc="
+        }
+      ]
+    },
+    {
+      "Route": "icon-512.i027wrgrt2.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon-512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ds6Aq9P6Wi70vSa/8UvKHZsvqHnFDD6jF7xlnNoOAQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i027wrgrt2"
+        },
+        {
+          "Name": "label",
+          "Value": "icon-512.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ds6Aq9P6Wi70vSa/8UvKHZsvqHnFDD6jF7xlnNoOAQs="
+        }
+      ]
+    },
+    {
+      "Route": "icon-512.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon-512.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ds6Aq9P6Wi70vSa/8UvKHZsvqHnFDD6jF7xlnNoOAQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:20:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ds6Aq9P6Wi70vSa/8UvKHZsvqHnFDD6jF7xlnNoOAQs="
+        }
+      ]
+    },
+    {
+      "Route": "icon.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/rt6jm4r3ql-w88gr0omu4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002127659574"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0="
+        }
+      ]
+    },
+    {
+      "Route": "icon.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0="
+        }
+      ]
+    },
+    {
+      "Route": "icon.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/rt6jm4r3ql-w88gr0omu4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s="
+        }
+      ]
+    },
+    {
+      "Route": "icon.w88gr0omu4.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/rt6jm4r3ql-w88gr0omu4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002127659574"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w88gr0omu4"
+        },
+        {
+          "Name": "label",
+          "Value": "icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0="
+        }
+      ]
+    },
+    {
+      "Route": "icon.w88gr0omu4.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1281"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w88gr0omu4"
+        },
+        {
+          "Name": "label",
+          "Value": "icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QHcf7axbbT7OvMnV3ExsMMUNElCVe8QHTcgS3Fupld0="
+        }
+      ]
+    },
+    {
+      "Route": "icon.w88gr0omu4.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/rt6jm4r3ql-w88gr0omu4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w88gr0omu4"
+        },
+        {
+          "Name": "label",
+          "Value": "icon.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tyda3tSLlQHszdWxkaus7KxR8bzWPZ8dQgjVLbUAV0s="
+        }
+      ]
+    },
+    {
+      "Route": "icons/cart.1yeetmm5x8.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/c6odsbrqg0-1yeetmm5x8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003205128205"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1yeetmm5x8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/cart.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/cart.1yeetmm5x8.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/cart.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1yeetmm5x8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/cart.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/cart.1yeetmm5x8.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/c6odsbrqg0-1yeetmm5x8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1yeetmm5x8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/cart.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs="
+        }
+      ]
+    },
+    {
+      "Route": "icons/cart.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/c6odsbrqg0-1yeetmm5x8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003205128205"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/cart.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/cart.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-18cQJY63b/ztQrAP1GaVlj2JwLzELrfVKeee8QI01T4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/cart.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/c6odsbrqg0-1yeetmm5x8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vilh7PXq43M1SoGygn5tJhPqrjAjW4DgspJYi865NEs="
+        }
+      ]
+    },
+    {
+      "Route": "icons/coffee-icon.8aj0xsd5c8.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/ttrp2ol7q1-8aj0xsd5c8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001988071571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "502"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8aj0xsd5c8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/coffee-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8="
+        }
+      ]
+    },
+    {
+      "Route": "icons/coffee-icon.8aj0xsd5c8.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/coffee-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8aj0xsd5c8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/coffee-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8="
+        }
+      ]
+    },
+    {
+      "Route": "icons/coffee-icon.8aj0xsd5c8.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/ttrp2ol7q1-8aj0xsd5c8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8aj0xsd5c8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/coffee-icon.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek="
+        }
+      ]
+    },
+    {
+      "Route": "icons/coffee-icon.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/ttrp2ol7q1-8aj0xsd5c8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001988071571"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "502"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8="
+        }
+      ]
+    },
+    {
+      "Route": "icons/coffee-icon.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/coffee-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YN2wNBWieEb4+jJOtw3FwzqXbq9JUWEYRl3wOvXIcM8="
+        }
+      ]
+    },
+    {
+      "Route": "icons/coffee-icon.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/ttrp2ol7q1-8aj0xsd5c8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w0fSVoxLZHKSiLSyWZd8WuusVuZU+cXZ5gCE11QW2ek="
+        }
+      ]
+    },
+    {
+      "Route": "icons/icon-delete.eqj9ggywly.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/5au5f5ge79-eqj9ggywly.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004291845494"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqj9ggywly"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/icon-delete.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/icon-delete.eqj9ggywly.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/icon-delete.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqj9ggywly"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/icon-delete.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/icon-delete.eqj9ggywly.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/5au5f5ge79-eqj9ggywly.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eqj9ggywly"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/icon-delete.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/icon-delete.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/5au5f5ge79-eqj9ggywly.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004291845494"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/icon-delete.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/icon-delete.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "409"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JjzQ335+TBYy/3plEZsyojfIzubc54q0R2sD5TR5Tu4="
+        }
+      ]
+    },
+    {
+      "Route": "icons/icon-delete.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/5au5f5ge79-eqj9ggywly.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 13:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RfdiqW5ruhLfLYS3iM8/HbTX72a4lVBQrCIA14HYiS0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Pastry.bacteag7xy.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/kxjrfchhyh-bacteag7xy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002212389381"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bacteag7xy"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/Pastry.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Pastry.bacteag7xy.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Pastry.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bacteag7xy"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/Pastry.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Pastry.bacteag7xy.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/kxjrfchhyh-bacteag7xy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bacteag7xy"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/Pastry.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Pastry.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/kxjrfchhyh-bacteag7xy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002212389381"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Pastry.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Pastry.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c9nz460A9mJ1G/gAjc1crN2rzpTS9QXRaZq0MZL+mGg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Pastry.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/kxjrfchhyh-bacteag7xy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "451"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FUM0M3idSNKdLpXqqXBfvlmvEK8evbplmVL4rqTmqEY="
+        }
+      ]
+    },
+    {
+      "Route": "icons/report.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/3mr5g5atj8-zcjkkmfvq2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002544529262"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "392"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/report.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/report.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/report.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/3mr5g5atj8-zcjkkmfvq2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y="
+        }
+      ]
+    },
+    {
+      "Route": "icons/report.zcjkkmfvq2.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/3mr5g5atj8-zcjkkmfvq2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002544529262"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "392"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zcjkkmfvq2"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/report.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/report.zcjkkmfvq2.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/report.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zcjkkmfvq2"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/report.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A/uGxXufqtc6GwV2Rn4GUI25f3Iefrqf0hr6Q8FmDfQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/report.zcjkkmfvq2.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/3mr5g5atj8-zcjkkmfvq2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zcjkkmfvq2"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/report.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rMsjR5l8gWsez7TPBX07/eXI6FFwT1PW1Kbo5/4wt7Y="
+        }
+      ]
+    },
+    {
+      "Route": "icons/search.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/muwi9fo93c-w5dhwkxzjc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004201680672"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/search.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/search.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/search.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/muwi9fo93c-w5dhwkxzjc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY="
+        }
+      ]
+    },
+    {
+      "Route": "icons/search.w5dhwkxzjc.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/muwi9fo93c-w5dhwkxzjc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004201680672"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w5dhwkxzjc"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/search.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/search.w5dhwkxzjc.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/search.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "498"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w5dhwkxzjc"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/search.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HOPzybk57nmOsbtUvAEYrIkJlqeDfoMMFrfl0U0PwYA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/search.w5dhwkxzjc.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/muwi9fo93c-w5dhwkxzjc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w5dhwkxzjc"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/search.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VskloZ112htcRfbKczDo0yiiC4X1T6xK5WR2NYrxhCY="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Snack.bgw3bjc0dc.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/0eqbzfallj-bgw3bjc0dc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001453488372"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "687"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bgw3bjc0dc"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/Snack.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Snack.bgw3bjc0dc.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Snack.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bgw3bjc0dc"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/Snack.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Snack.bgw3bjc0dc.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/0eqbzfallj-bgw3bjc0dc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bgw3bjc0dc"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/Snack.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Snack.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/0eqbzfallj-bgw3bjc0dc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001453488372"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "687"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Snack.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/Snack.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9WFHukjWjbCciAcuawk8o/vOFoJGaN+bbqZMkM+f6rE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/Snack.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/0eqbzfallj-bgw3bjc0dc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "687"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ae5jPBH/dlPzwTZAzt5knnLNTSx0XRq8KvM9BI0bWcQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tea.e0o1wlm026.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/srpdbgmxqb-e0o1wlm026.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002375296912"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e0o1wlm026"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/tea.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tea.e0o1wlm026.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/tea.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e0o1wlm026"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/tea.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tea.e0o1wlm026.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/srpdbgmxqb-e0o1wlm026.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e0o1wlm026"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/tea.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tea.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/srpdbgmxqb-e0o1wlm026.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002375296912"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tea.svg",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/icons/tea.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ziNKC7R7zeMJroUtYdyntR9O0PVLKppaDcQ/5wvvZ+0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tea.svg.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/srpdbgmxqb-e0o1wlm026.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mEOZjjMbinyCesgpRMvyhK8Oz6Hjh5Yukme24wX0VQQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/pos.5kydu4zfzz.js",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/nfigdb83tz-5kydu4zfzz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000319795331"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3126"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kydu4zfzz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw="
+        }
+      ]
+    },
+    {
+      "Route": "js/pos.5kydu4zfzz.js",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/js/pos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kydu4zfzz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw="
+        }
+      ]
+    },
+    {
+      "Route": "js/pos.5kydu4zfzz.js.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/nfigdb83tz-5kydu4zfzz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kydu4zfzz"
+        },
+        {
+          "Name": "label",
+          "Value": "js/pos.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE="
+        }
+      ]
+    },
+    {
+      "Route": "js/pos.js",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/nfigdb83tz-5kydu4zfzz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000319795331"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3126"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw="
+        }
+      ]
+    },
+    {
+      "Route": "js/pos.js",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/js/pos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y7HWbGT59JekgwG7JZPxyBv1t5bK2H+UI4BMx9j2wPw="
+        }
+      ]
+    },
+    {
+      "Route": "js/pos.js.gz",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/obj/Debug/net9.0/compressed/nfigdb83tz-5kydu4zfzz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 14:17:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TKIjvP/oveNxH12hEd1rFX5gxiHnrzSylxQ2FTCNueE="
+        }
+      ]
+    },
+    {
+      "Route": "keimheancoffeeLogo.75ylrv2689.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/keimheancoffeeLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:13:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75ylrv2689"
+        },
+        {
+          "Name": "label",
+          "Value": "keimheancoffeeLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs="
+        }
+      ]
+    },
+    {
+      "Route": "keimheancoffeeLogo.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/keimheancoffeeLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:13:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs="
+        }
+      ]
+    },
+    {
+      "Route": "logo.75ylrv2689.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75ylrv2689"
+        },
+        {
+          "Name": "label",
+          "Value": "logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs="
+        }
+      ]
+    },
+    {
+      "Route": "logo.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1683143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxdtAnRwDixkAThH78wtO+8NI1FrpRP53fjsd2cfRLs="
+        }
+      ]
+    },
+    {
+      "Route": "mylogo-64.epsmozktgd.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/mylogo-64.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LsEVTuHnpULkpJjtt6bHGQ7kBJPoXlBZDSspiBB37ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:26:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "epsmozktgd"
+        },
+        {
+          "Name": "label",
+          "Value": "mylogo-64.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LsEVTuHnpULkpJjtt6bHGQ7kBJPoXlBZDSspiBB37ow="
+        }
+      ]
+    },
+    {
+      "Route": "mylogo-64.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/mylogo-64.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LsEVTuHnpULkpJjtt6bHGQ7kBJPoXlBZDSspiBB37ow=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:26:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LsEVTuHnpULkpJjtt6bHGQ7kBJPoXlBZDSspiBB37ow="
+        }
+      ]
+    },
+    {
+      "Route": "mylogo.auz304t30f.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/mylogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "959435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zge3sUp6xVr/qUGPgHsMqlrf2Jn3eRqHrpK6K0ydr8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:19:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "auz304t30f"
+        },
+        {
+          "Name": "label",
+          "Value": "mylogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zge3sUp6xVr/qUGPgHsMqlrf2Jn3eRqHrpK6K0ydr8E="
+        }
+      ]
+    },
+    {
+      "Route": "mylogo.png",
+      "AssetFile": "/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.API/wwwroot/mylogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "959435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zge3sUp6xVr/qUGPgHsMqlrf2Jn3eRqHrpK6K0ydr8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Nov 2025 12:19:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zge3sUp6xVr/qUGPgHsMqlrf2Jn3eRqHrpK6K0ydr8E="
+        }
+      ]
+    }
+  ]
+}

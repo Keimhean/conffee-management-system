@@ -1,0 +1,1074 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:KeimheanCafePOS.Desktop.ViewModels"
+        xmlns:models="using:KeimheanCafePOS.Desktop.Models"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:svg="clr-namespace:Avalonia.Svg.Skia;assembly=Avalonia.Svg.Skia"
+    xmlns:conv="clr-namespace:KeimheanCafePOS.Desktop.Converters;assembly=KeimheanCafePOS.Desktop"
+        mc:Ignorable="d" d:DesignWidth="1600" d:DesignHeight="1000"
+        x:Class="KeimheanCafePOS.Desktop.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Title="KEIMHEAN Cafe - POS System"
+        Width="1600" Height="1000"
+        MinWidth="1400" MinHeight="900"
+        WindowStartupLocation="CenterScreen"
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+        ExtendClientAreaToDecorationsHint="True">
+
+    <Window.Styles>
+        <!-- Glass Card Base Style -->
+        <Style Selector="Border.glass-card">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.92"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#E5E7EB" Opacity="0.6"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="24"/>
+        </Style>
+
+        <!-- Header Glass Style -->
+        <Style Selector="Border.glass-header">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                        <GradientStop Color="#F59E0B" Offset="0"/>
+                        <GradientStop Color="#F97316" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="CornerRadius" Value="20"/>
+            <!-- BoxShadow removed for compatibility -->
+        </Style>
+
+        <!-- Category Button Style -->
+        <Style Selector="Button.category-btn">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.7"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#000000" Opacity="0.1"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="20,12"/>
+            <Setter Property="Margin" Value="0,0,8,0"/>
+            <Setter Property="Foreground" Value="#1F2937"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <!-- Transitions removed for compatibility -->
+        </Style>
+
+        <Style Selector="Button.category-btn:pointerover">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.9"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransform" Value="scale(1.05)"/>
+        </Style>
+
+        <Style Selector="Button.category-btn-selected">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                        <GradientStop Color="#F59E0B" Offset="0"/>
+                        <GradientStop Color="#F97316" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <!-- BoxShadow removed for compatibility -->
+        </Style>
+
+        <!-- Product Card Style -->
+        <Style Selector="Border.product-card">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.95"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#000000" Opacity="0.05"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="16"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Transitions">
+                <Transitions>
+                    <TransformOperationsTransition Property="RenderTransform" Duration="0:0:0.3">
+                        <TransformOperationsTransition.Easing>
+                            <CubicEaseOut/>
+                        </TransformOperationsTransition.Easing>
+                    </TransformOperationsTransition>
+                    <DoubleTransition Property="Opacity" Duration="0:0:0.2"/>
+                </Transitions>
+            </Setter>
+        </Style>
+
+        <Style Selector="Border.product-card:pointerover">
+            <Setter Property="RenderTransform" Value="scale(1.03)"/>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#F59E0B" Opacity="0.3"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Primary Button -->
+        <Style Selector="Button.btn-primary">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                        <GradientStop Color="#8B5CF6" Offset="0"/>
+                        <GradientStop Color="#3B82F6" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="24,14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <!-- BoxShadow removed for compatibility -->
+        </Style>
+
+        <Style Selector="Button.btn-primary:pointerover">
+            <!-- BoxShadow removed for compatibility -->
+        </Style>
+
+        <Style Selector="Button.btn-primary:disabled">
+            <Setter Property="Opacity" Value="0.5"/>
+        </Style>
+
+        <!-- Success Button -->
+        <Style Selector="Button.btn-success">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                        <GradientStop Color="#10B981" Offset="0"/>
+                        <GradientStop Color="#059669" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="24,14"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <!-- BoxShadow removed for compatibility -->
+        </Style>
+
+        <!-- Danger Button -->
+        <Style Selector="Button.btn-danger">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#EF4444"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+
+        <Style Selector="Button.btn-danger:pointerover">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#EF4444" Opacity="0.1"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- TextBox Style -->
+        <Style Selector="TextBox.glass-input">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.8"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#000000" Opacity="0.1"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <Style Selector="TextBox.glass-input:focus">
+            <Setter Property="BorderBrush" Value="#3B82F6"/>
+            <Setter Property="BorderThickness" Value="2"/>
+        </Style>
+
+        <!-- Cart Item Card -->
+        <Style Selector="Border.cart-item-card">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.6"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#E5E7EB" Opacity="0.5"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="14"/>
+            <Setter Property="Padding" Value="14"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="Transitions">
+                <Transitions>
+                    <DoubleTransition Property="Opacity" Duration="0:0:0.2"/>
+                </Transitions>
+            </Setter>
+        </Style>
+        
+        <Style Selector="Border.cart-item-card:pointerover">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.85"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Stats Card -->
+        <Style Selector="Border.stats-card">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.7"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#000000" Opacity="0.05"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="16"/>
+            <Setter Property="Padding" Value="20"/>
+        </Style>
+
+        <!-- Transaction Card -->
+        <Style Selector="Border.transaction-card">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.7"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#000000" Opacity="0.05"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="16"/>
+            <Setter Property="Margin" Value="0,0,0,12"/>
+        </Style>
+
+        <!-- Success Message -->
+        <Style Selector="Border.success-message">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                        <GradientStop Color="#D1FAE5" Offset="0"/>
+                        <GradientStop Color="#A7F3D0" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="CornerRadius" Value="16"/>
+            <Setter Property="Padding" Value="24"/>
+            <!-- BoxShadow removed for compatibility -->
+        </Style>
+
+        <!-- Quantity Button -->
+        <Style Selector="Button.qty-btn">
+            <Setter Property="Width" Value="36"/>
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#FFFFFF" Opacity="0.9"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderBrush">
+                <Setter.Value>
+                    <SolidColorBrush Color="#000000" Opacity="0.1"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="16"/>
+        </Style>
+
+        <Style Selector="Button.qty-btn:pointerover">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <SolidColorBrush Color="#F3F4F6"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Styles>
+
+    <Window.Resources>
+        <conv:IsSvgConverter x:Key="IsSvgConverter"/>
+        <conv:IsNotSvgConverter x:Key="IsNotSvgConverter"/>
+    </Window.Resources>
+
+    <!-- Main Background with Gradient -->
+    <Panel>
+        <!-- Animated Gradient Background -->
+        <Border>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                    <GradientStop Color="#EFF6FF" Offset="0"/>
+                    <GradientStop Color="#FEF3C7" Offset="0.33"/>
+                    <GradientStop Color="#FCE7F3" Offset="0.66"/>
+                    <GradientStop Color="#F0F9FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <!-- Main Content -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel Margin="32,80,32,32" Spacing="24">
+                
+                <!-- Header with Logo -->
+                <Border Classes="glass-header" Padding="24">
+                    <Grid ColumnDefinitions="Auto,*,Auto">
+                        <!-- Logo Section -->
+                        <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="16">
+                            <Border Width="88" Height="88" CornerRadius="44" Background="#FFFFFF" Padding="8" BorderBrush="#E5E7EB" BorderThickness="1">
+                                <Image Source="avares://KeimheanCafePOS.Desktop/Assets/icons/photo/mylogo.png" Stretch="Uniform"/>
+                            </Border>
+
+                            <StackPanel VerticalAlignment="Center" Spacing="4">
+                                <TextBlock Text="KEIMHEAN Cafe" 
+                                           FontSize="32" 
+                                           FontWeight="Bold" 
+                                           Foreground="White"/>
+                                <TextBlock Text="Point of Sale System" 
+                                           Foreground="#FFF" 
+                                           FontSize="14"
+                                           Opacity="0.9"/>
+                            </StackPanel>
+                        </StackPanel>
+
+                        <!-- Header Actions -->
+                        <StackPanel Grid.Column="2" 
+                                    Orientation="Horizontal" 
+                                    Spacing="12" 
+                                    VerticalAlignment="Center">
+                            <Button Command="{Binding RefreshDataCommand}">
+                                <Button.Styles>
+                                    <Style Selector="Button">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <SolidColorBrush Color="#FFFFFF" Opacity="0.2"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Setter Property="BorderThickness" Value="1"/>
+                                        <Setter Property="BorderBrush">
+                                            <Setter.Value>
+                                                <SolidColorBrush Color="#FFFFFF" Opacity="0.3"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                        <Setter Property="Padding" Value="16,10"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                    </Style>
+                                    <Style Selector="Button:pointerover">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <SolidColorBrush Color="#FFFFFF" Opacity="0.3"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Styles>
+                                <StackPanel Orientation="Horizontal" Spacing="8">
+                                    <TextBlock Text="🔄" FontSize="16"/>
+                                    <TextBlock Text="Refresh" FontWeight="SemiBold"/>
+                                </StackPanel>
+                            </Button>
+
+                            <Button Command="{Binding ToggleReportsCommand}">
+                                <Button.Styles>
+                                    <Style Selector="Button">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <SolidColorBrush Color="#FFFFFF" Opacity="0.2"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Setter Property="BorderThickness" Value="1"/>
+                                        <Setter Property="BorderBrush">
+                                            <Setter.Value>
+                                                <SolidColorBrush Color="#FFFFFF" Opacity="0.3"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                        <Setter Property="Padding" Value="16,10"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                    </Style>
+                                    <Style Selector="Button:pointerover">
+                                        <Setter Property="Background">
+                                            <Setter.Value>
+                                                <SolidColorBrush Color="#FFFFFF" Opacity="0.3"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Button.Styles>
+                                <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                                    <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/report.svg" Width="18" Height="18"/>
+                                    <TextBlock FontWeight="SemiBold" Text="View Reports"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <!-- Reports Section -->
+                <Border Classes="glass-card" Padding="28" IsVisible="{Binding ShowReports}">
+                    <StackPanel Spacing="24">
+                        <!-- Reports Header -->
+                        <StackPanel Spacing="8">
+                            <StackPanel Orientation="Horizontal" Spacing="10" VerticalAlignment="Center">
+                                <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/report.svg" Width="32" Height="32"/>
+                                <TextBlock Text="Transaction Reports" 
+                                           FontSize="28" 
+                                           FontWeight="Bold"
+                                           Foreground="#1F2937"/>
+                            </StackPanel>
+                            <TextBlock Text="View and manage your sales transactions" 
+                                       Foreground="#6B7280"
+                                       FontSize="14"/>
+                        </StackPanel>
+                        
+                        <!-- Stats Grid -->
+                        <Grid ColumnDefinitions="*,*,*,*" RowDefinitions="Auto">
+                            <!-- Total Transactions -->
+                            <Border Grid.Column="0" Classes="stats-card" Margin="0,0,12,0">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="Total Transactions" 
+                                               Foreground="#6B7280" 
+                                               FontSize="13"
+                                               FontWeight="Medium"/>
+                                    <TextBlock Text="{Binding Stats.TotalTransactions}" 
+                                               FontSize="36" 
+                                               FontWeight="Bold"
+                                               Foreground="#1F2937"/>
+                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                        <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/report.svg" Width="14" Height="14"/>
+                                        <TextBlock Text="Orders" 
+                                                   Foreground="#9CA3AF" 
+                                                   FontSize="12"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Total Revenue -->
+                            <Border Grid.Column="1" Classes="stats-card" Margin="0,0,12,0">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="Total Revenue" 
+                                               Foreground="#6B7280" 
+                                               FontSize="13"
+                                               FontWeight="Medium"/>
+                                    <StackPanel Orientation="Horizontal" Spacing="4">
+                                        <TextBlock Text="$" 
+                                                   FontSize="36" 
+                                                   FontWeight="Bold"
+                                                   Foreground="#F59E0B"/>
+                                        <TextBlock Text="{Binding Stats.TotalRevenue, StringFormat='{}{0:F2}'}" 
+                                                   FontSize="36" 
+                                                   FontWeight="Bold"
+                                                   Foreground="#F59E0B"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                        <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/cart.svg" Width="14" Height="14"/>
+                                        <TextBlock Text="Total Sales" 
+                                                   Foreground="#9CA3AF" 
+                                                   FontSize="12"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Average Order -->
+                            <Border Grid.Column="2" Classes="stats-card" Margin="0,0,12,0">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="Average Order" 
+                                               Foreground="#6B7280" 
+                                               FontSize="13"
+                                               FontWeight="Medium"/>
+                                    <StackPanel Orientation="Horizontal" Spacing="4">
+                                        <TextBlock Text="$" 
+                                                   FontSize="36" 
+                                                   FontWeight="Bold"
+                                                   Foreground="#8B5CF6"/>
+                                        <TextBlock Text="{Binding Stats.AverageOrder, StringFormat='{}{0:F2}'}" 
+                                                   FontSize="36" 
+                                                   FontWeight="Bold"
+                                                   Foreground="#8B5CF6"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                        <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/report.svg" Width="14" Height="14"/>
+                                        <TextBlock Text="Per Transaction" 
+                                                   Foreground="#9CA3AF" 
+                                                   FontSize="12"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Items Sold -->
+                            <Border Grid.Column="3" Classes="stats-card">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="Items Sold" 
+                                               Foreground="#6B7280" 
+                                               FontSize="13"
+                                               FontWeight="Medium"/>
+                                    <TextBlock Text="{Binding Stats.TotalItems}" 
+                                               FontSize="36" 
+                                               FontWeight="Bold"
+                                               Foreground="#10B981"/>
+                                    <StackPanel Orientation="Horizontal" Spacing="6">
+                                        <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/coffee-icon.svg" Width="14" Height="14"/>
+                                        <TextBlock Text="Products" 
+                                                   Foreground="#9CA3AF" 
+                                                   FontSize="12"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+
+                        <!-- Transactions List -->
+                        <StackPanel Spacing="12">
+                            <TextBlock Text="Recent Transactions" 
+                                       FontSize="20" 
+                                       FontWeight="Bold"
+                                       Foreground="#1F2937"/>
+                            
+                            <ScrollViewer MaxHeight="400" VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding Transactions}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate x:DataType="models:Transaction">
+                                            <Border Classes="transaction-card">
+                                                <Grid ColumnDefinitions="Auto,*,Auto,Auto">
+                                                    <!-- Transaction Icon -->
+                                                    <Border Grid.Column="0" 
+                                                            Width="48" Height="48"
+                                                            CornerRadius="12"
+                                                            Margin="0,0,16,0"
+                                                            VerticalAlignment="Center">
+                                                        <Border.Background>
+                                                            <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                                                                <GradientStop Color="#DBEAFE" Offset="0"/>
+                                                                <GradientStop Color="#BFDBFE" Offset="1"/>
+                                                            </LinearGradientBrush>
+                                                        </Border.Background>
+                                                        <TextBlock Text="📊" 
+                                                                FontSize="24" 
+                                                                HorizontalAlignment="Center" 
+                                                                VerticalAlignment="Center"/>
+                                                    </Border>
+
+                                                    <!-- Transaction Info -->
+                                                    <StackPanel Grid.Column="1" 
+                                                                Spacing="6" 
+                                                                VerticalAlignment="Center">
+                                                        <StackPanel Orientation="Horizontal" Spacing="8">
+                                                            <TextBlock Text="Transaction #" 
+                                                                       Foreground="#6B7280"
+                                                                       FontSize="14"/>
+                                                            <TextBlock Text="{Binding Id}" 
+                                                                       FontWeight="Bold"
+                                                                       FontSize="14"
+                                                                       Foreground="#1F2937"/>
+                                                        </StackPanel>
+                                                        <StackPanel Orientation="Horizontal" Spacing="16">
+                                                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                                                <TextBlock Text="👤" FontSize="12"/>
+                                                                <TextBlock Text="{Binding CashierName}" 
+                                                                           Foreground="#6B7280"
+                                                                           FontSize="13"/>
+                                                            </StackPanel>
+                                                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                                                <TextBlock Text="🕒" FontSize="12"/>
+                                                                <TextBlock Text="{Binding TransactionDate, StringFormat='{}{0:MMM dd, yyyy HH:mm}'}" 
+                                                                           Foreground="#6B7280"
+                                                                           FontSize="13"/>
+                                                            </StackPanel>
+                                                        </StackPanel>
+                                                    </StackPanel>
+
+                                                    <!-- Transaction Total -->
+                                                    <Border Grid.Column="2" 
+                                                            Padding="16,8"
+                                                            CornerRadius="8"
+                                                            Margin="0,0,16,0"
+                                                            VerticalAlignment="Center">
+                                                        <Border.Background>
+                                                            <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                                                                <GradientStop Color="#FEF3C7" Offset="0"/>
+                                                                <GradientStop Color="#FDE68A" Offset="1"/>
+                                                            </LinearGradientBrush>
+                                                        </Border.Background>
+                                                        <StackPanel Orientation="Horizontal" Spacing="4">
+                                                            <TextBlock Text="$" 
+                                                                       FontWeight="Bold"
+                                                                       FontSize="20"
+                                                                       Foreground="#D97706"/>
+                                                            <TextBlock Text="{Binding Total, StringFormat='{}{0:F2}'}" 
+                                                                       FontWeight="Bold"
+                                                                       FontSize="20"
+                                                                       Foreground="#D97706"/>
+                                                        </StackPanel>
+                                                    </Border>
+
+                                                    <!-- Delete Button -->
+                                                    <Button Grid.Column="3" 
+                                                            Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).DeleteTransactionCommand}"
+                                                            CommandParameter="{Binding Id}"
+                                                            Classes="btn-danger"
+                                                            VerticalAlignment="Center"
+                                                            ToolTip.Tip="Delete Transaction">
+                                                        <TextBlock Text="🗑️" FontSize="20"/>
+                                                    </Button>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <!-- Main Content Grid: Products + Cart -->
+                <Grid ColumnDefinitions="2.2*,1*" ColumnSpacing="24">
+                    
+                    <!-- LEFT: Products Section -->
+                    <Border Grid.Column="0" Classes="glass-card" Padding="24">
+                        <StackPanel Spacing="20">
+                            
+                            <!-- Section Header -->
+                            <StackPanel Spacing="8">
+                                <TextBlock Text=" Products" 
+                                           FontSize="26" 
+                                           FontWeight="Bold"
+                                           Foreground="#1F2937"/>
+                                <TextBlock Text="Select items to add to order" 
+                                           Foreground="#6B7280"
+                                           FontSize="14"/>
+                            </StackPanel>
+
+                            <!-- Category Tabs -->
+                            <ScrollViewer HorizontalScrollBarVisibility="Auto" 
+                                          VerticalScrollBarVisibility="Disabled">
+                                <ItemsControl ItemsSource="{Binding Categories}">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <StackPanel Orientation="Horizontal"/>
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate x:DataType="models:CategoryItem">
+                                            <Button Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).SelectCategoryCommand}"
+                                                    CommandParameter="{Binding Name}"
+                                                    Classes="category-btn">
+                                                <StackPanel Orientation="Horizontal" Spacing="8" VerticalAlignment="Center">
+                                                    <svg:Svg Path="{Binding IconPath}" Width="20" Height="20"/>
+                                                    <TextBlock Text="{Binding Name}"/>
+                                                </StackPanel>
+                                            </Button>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+
+                            <!-- Search Box with Icon -->
+                            <Border Classes="glass-input" Padding="0" CornerRadius="12">
+                                <Grid ColumnDefinitions="Auto,*" VerticalAlignment="Center">
+                                    <svg:Svg Path="avares://KeimheanCafePOS.Desktop/Assets/icons/search.svg" Width="24" Height="24" Margin="12,0"/>
+                                    <TextBox Grid.Column="1"
+                                             Text="{Binding SearchQuery}"
+                                             BorderThickness="0"
+                                             Background="Transparent"
+                                             Watermark="Search products..."
+                                             FontSize="15"
+                                             Padding="0,10,12,10"/>
+                                </Grid>
+                            </Border>
+
+                            <!-- Products Grid -->
+                            <ScrollViewer MaxHeight="700" VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding FilteredProducts}">
+                                    <ItemsControl.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <WrapPanel/>
+                                        </ItemsPanelTemplate>
+                                    </ItemsControl.ItemsPanel>
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate x:DataType="models:Product">
+                                            <Border Classes="product-card" 
+                                                    Width="200" 
+                                                    Margin="0,0,16,16"
+                                                    Tapped="Product_Tapped">
+                                                <StackPanel>
+                                                    <!-- Product Image -->
+                                                    <Panel Height="200" ClipToBounds="True">
+                                                        <Border CornerRadius="16,16,0,0">
+                                                            <Panel>
+                                                                 <svg:Svg Path="{Binding ImageUrl}"
+                                                                       Width="200" Height="200"
+                                                                       IsVisible="{Binding ImageUrl, Converter={StaticResource IsSvgConverter}}"/>
+                                                                 <Image Source="{Binding ImageUrl}"
+                                                                     Stretch="UniformToFill"
+                                                                     IsVisible="{Binding ImageUrl, Converter={StaticResource IsNotSvgConverter}}"/>
+                                                                <!-- Subtle overlay for depth -->
+                                                                <Border>
+                                                                    <Border.Background>
+                                                                        <LinearGradientBrush StartPoint="50%,0%" EndPoint="50%,100%">
+                                                                            <GradientStop Color="Transparent" Offset="0"/>
+                                                                            <GradientStop Color="#00000000" Offset="0.5"/>
+                                                                            <GradientStop Color="#00000008" Offset="1"/>
+                                                                        </LinearGradientBrush>
+                                                                    </Border.Background>
+                                                                </Border>
+                                                            </Panel>
+                                                        </Border>
+                                                        <!-- Category Badge with shadow effect -->
+                                                        <Border Margin="12"
+                                                                HorizontalAlignment="Right"
+                                                                VerticalAlignment="Top">
+                                                            <Border Background="#F59E0B"
+                                                                    CornerRadius="8"
+                                                                    Padding="10,6">
+                                                                <TextBlock Text="{Binding Category}" 
+                                                                           Foreground="White"
+                                                                           FontSize="11"
+                                                                           FontWeight="SemiBold"/>
+                                                            </Border>
+                                                        </Border>
+                                                    </Panel>
+                                                    
+                                                    <!-- Product Info -->
+                                                    <StackPanel Margin="14" Spacing="6">
+                                                        <TextBlock Text="{Binding Name}" 
+                                                                   FontWeight="SemiBold"
+                                                                   FontSize="15"
+                                                                   Foreground="#1F2937"
+                                                                   TextTrimming="CharacterEllipsis"/>
+                                                        <StackPanel Orientation="Horizontal" Spacing="6">
+                                                            <TextBlock Text="$" 
+                                                                       Foreground="#F59E0B" 
+                                                                       FontWeight="Bold"
+                                                                       FontSize="20"/>
+                                                            <TextBlock Text="{Binding Price, StringFormat='{}{0:F2}'}" 
+                                                                       Foreground="#F59E0B" 
+                                                                       FontWeight="Bold"
+                                                                       FontSize="20"/>
+                                                        </StackPanel>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </ScrollViewer>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- RIGHT: Cart Section -->
+                    <Border Grid.Column="1" Classes="glass-card" Padding="24">
+                        <StackPanel Spacing="20">
+                            
+                            <!-- Cart Header -->
+                            <StackPanel Orientation="Horizontal" Spacing="12">
+                                <Border Width="48" Height="48" 
+                                        CornerRadius="12"
+                                        VerticalAlignment="Center">
+                                    <Border.Background>
+                                        <LinearGradientBrush StartPoint="0%,0%" EndPoint="100%,100%">
+                                            <GradientStop Color="#DDD6FE" Offset="0"/>
+                                            <GradientStop Color="#C4B5FD" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Border.Background>
+                                     <TextBlock Text="🛒" FontSize="24" 
+                                             HorizontalAlignment="Center" 
+                                             VerticalAlignment="Center"/>
+                                </Border>
+                                <StackPanel VerticalAlignment="Center" Spacing="4">
+                                    <TextBlock Text="Current Order" 
+                                               FontSize="22" 
+                                               FontWeight="Bold"
+                                               Foreground="#1F2937"/>
+                                    <TextBlock Foreground="#6B7280" FontSize="13">
+                                        <Run Text="{Binding Cart.Count}"/>
+                                        <Run Text=" items"/>
+                                    </TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <!-- Cashier Name Input -->
+                            <StackPanel Spacing="8">
+                                <TextBlock Text="Cashier Name" 
+                                           Foreground="#6B7280"
+                                           FontSize="13"
+                                           FontWeight="Medium"/>
+                                <TextBox Text="{Binding CashierName}" 
+                                         Watermark="Enter cashier name"
+                                         Classes="glass-input"/>
+                            </StackPanel>
+
+                            <!-- Cart Items -->
+                            <StackPanel Spacing="12">
+                                <TextBlock Text="Order Items" 
+                                           Foreground="#6B7280"
+                                           FontSize="13"
+                                           FontWeight="Medium"/>
+                                
+                                <ScrollViewer MaxHeight="320" VerticalScrollBarVisibility="Auto">
+                                    <ItemsControl ItemsSource="{Binding Cart}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate x:DataType="models:CartItem">
+                                                <Border Classes="cart-item-card">
+                                                    <Grid ColumnDefinitions="*,Auto">
+                                                        <!-- Product Info -->
+                                                        <StackPanel Grid.Column="0" Spacing="6">
+                                                            <TextBlock Text="{Binding Product.Name}" 
+                                                                       FontWeight="SemiBold"
+                                                                       FontSize="14"
+                                                                       Foreground="#1F2937"/>
+                                                            <StackPanel Orientation="Horizontal" Spacing="6">
+                                                                <TextBlock Text="$" Foreground="#F59E0B" FontSize="13"/>
+                                                                <TextBlock Text="{Binding Product.Price, StringFormat='{}{0:F2}'}" 
+                                                                           Foreground="#F59E0B"
+                                                                           FontSize="13"/>
+                                                                <TextBlock Text="×" Foreground="#9CA3AF" FontSize="13"/>
+                                                                <TextBlock Text="{Binding Quantity}" 
+                                                                           Foreground="#6B7280"
+                                                                           FontSize="13"/>
+                                                            </StackPanel>
+                                                            <StackPanel Orientation="Horizontal" Spacing="4">
+                                                                <TextBlock Text="Subtotal: $" 
+                                                                           Foreground="#6B7280"
+                                                                           FontSize="12"/>
+                                                                <TextBlock Text="{Binding Subtotal, StringFormat='{}{0:F2}'}" 
+                                                                           Foreground="#1F2937"
+                                                                           FontWeight="SemiBold"
+                                                                           FontSize="12"/>
+                                                            </StackPanel>
+                                                        </StackPanel>
+
+                                                        <!-- Quantity Controls -->
+                                                        <StackPanel Grid.Column="1" 
+                                                                    Orientation="Horizontal" 
+                                                                    Spacing="8"
+                                                                    VerticalAlignment="Center">
+                                                            <Button Content="−"
+                                                                    Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).DecreaseQuantityCommand}"
+                                                                    CommandParameter="{Binding}"
+                                                                    Classes="qty-btn"/>
+                                                            <TextBlock Text="{Binding Quantity}" 
+                                                                       VerticalAlignment="Center"
+                                                                       Width="28" 
+                                                                       TextAlignment="Center"
+                                                                       FontWeight="Bold"
+                                                                       FontSize="16"
+                                                                       Foreground="#1F2937"/>
+                                                            <Button Content="+"
+                                                                    Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).IncreaseQuantityCommand}"
+                                                                    CommandParameter="{Binding}"
+                                                                    Classes="qty-btn"/>
+                                                            <Button Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).RemoveFromCartCommand}"
+                                                                    CommandParameter="{Binding}"
+                                                                    Classes="btn-danger">
+                                                                 <TextBlock Text="🗑️" FontSize="20"/>
+                                                            </Button>
+                                                        </StackPanel>
+                                                    </Grid>
+                                                </Border>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </ScrollViewer>
+                            </StackPanel>
+
+                            <!-- Order Summary -->
+                            <Border BorderBrush="#E5E7EB" 
+                                    BorderThickness="0,1,0,0" 
+                                    Padding="0,16,0,0">
+                                <StackPanel Spacing="12">
+                                    <TextBlock Text="Order Summary" 
+                                               FontWeight="SemiBold"
+                                               FontSize="15"
+                                               Foreground="#1F2937"
+                                               Margin="0,0,0,8"/>
+                                    
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <TextBlock Grid.Column="0" 
+                                                   Text="Subtotal" 
+                                                   Foreground="#6B7280"/>
+                                        <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4">
+                                            <TextBlock Text="$" Foreground="#1F2937"/>
+                                            <TextBlock Text="{Binding Subtotal, StringFormat='{}{0:F2}'}" 
+                                                       Foreground="#1F2937"/>
+                                        </StackPanel>
+                                    </Grid>
+                                    
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <TextBlock Grid.Column="0" 
+                                                   Text="Tax (10%)" 
+                                                   Foreground="#6B7280"/>
+                                        <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4">
+                                            <TextBlock Text="$" Foreground="#1F2937"/>
+                                            <TextBlock Text="{Binding Tax, StringFormat='{}{0:F2}'}" 
+                                                       Foreground="#1F2937"/>
+                                        </StackPanel>
+                                    </Grid>
+                                    
+                                    <Border Background="#F3F4F6" 
+                                            CornerRadius="8" 
+                                            Padding="12"
+                                            Margin="0,8,0,0">
+                                        <Grid ColumnDefinitions="*,Auto">
+                                            <TextBlock Grid.Column="0" 
+                                                       Text="Total" 
+                                                       FontWeight="Bold"
+                                                       FontSize="18"
+                                                       Foreground="#1F2937"/>
+                                            <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4">
+                                                <TextBlock Text="$" 
+                                                           Foreground="#F59E0B" 
+                                                           FontWeight="Bold"
+                                                           FontSize="24"/>
+                                                <TextBlock Text="{Binding Total, StringFormat='{}{0:F2}'}" 
+                                                           Foreground="#F59E0B" 
+                                                           FontWeight="Bold"
+                                                           FontSize="24"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+                                </StackPanel>
+                            </Border>
+
+                            <!-- Payment Section (Not Visible Initially) -->
+                            <StackPanel Spacing="12" IsVisible="{Binding !ShowPayment}">
+                                <Button Command="{Binding ShowPaymentViewCommand}"
+                                        IsEnabled="{Binding Cart.Count}"
+                                        Classes="btn-primary"
+                                        HorizontalAlignment="Stretch"
+                                        Height="52">
+                                    <StackPanel Orientation="Horizontal" Spacing="10">
+                                        <TextBlock Text="💳" FontSize="20"/>
+                                        <TextBlock Text="Proceed to Checkout" 
+                                                   HorizontalAlignment="Center"
+                                                   FontSize="16"/>
+                                    </StackPanel>
+                                </Button>
+                            </StackPanel>
+
+                            <!-- Payment View -->
+                            <StackPanel Spacing="14" IsVisible="{Binding ShowPayment}">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="Cash Amount" 
+                                               Foreground="#6B7280"
+                                               FontSize="13"
+                                               FontWeight="Medium"/>
+                                    <TextBox Text="{Binding CashAmount}" 
+                                             Watermark="0.00"
+                                             Classes="glass-input"
+                                             FontSize="18"
+                                             FontWeight="SemiBold"/>
+                                </StackPanel>
+                                
+                                <Border Background="#ECFDF5" 
+                                        CornerRadius="8" 
+                                        Padding="12"
+                                        IsVisible="{Binding Change}">
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <TextBlock Grid.Column="0" 
+                                                   Text="Change Due:" 
+                                                   Foreground="#047857"
+                                                   FontWeight="SemiBold"/>
+                                        <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="4">
+                                            <TextBlock Text="$" 
+                                                       Foreground="#059669" 
+                                                       FontWeight="Bold"
+                                                       FontSize="18"/>
+                                            <TextBlock Text="{Binding Change, StringFormat='{}{0:F2}'}" 
+                                                       Foreground="#059669" 
+                                                       FontWeight="Bold"
+                                                       FontSize="18"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+
+                                <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+                                    <Button Grid.Column="0" 
+                                            Content="Cancel"
+                                            Command="{Binding CancelPaymentCommand}"
+                                            Classes="category-btn"
+                                            HorizontalAlignment="Stretch"
+                                            Height="48"/>
+                                    <Button Grid.Column="1" 
+                                            Command="{Binding CompletePaymentCommand}"
+                                            IsEnabled="{Binding CanCompletePayment}"
+                                            Classes="btn-success"
+                                            HorizontalAlignment="Stretch"
+                                            Height="48">
+                                        <StackPanel Orientation="Horizontal" Spacing="8">
+                                            <TextBlock Text="✓" FontSize="18"/>
+                                            <TextBlock Text="Complete" FontSize="16"/>
+                                        </StackPanel>
+                                    </Button>
+                                </Grid>
+                            </StackPanel>
+
+                            <!-- Order Complete Message -->
+                            <Border IsVisible="{Binding OrderComplete}"
+                                    Classes="success-message">
+                                <StackPanel HorizontalAlignment="Center" Spacing="12">
+                                    <TextBlock Text="✓" 
+                                               FontSize="56" 
+                                               Foreground="#10B981"
+                                               HorizontalAlignment="Center"
+                                               FontWeight="Bold"/>
+                                    <TextBlock Text="Order Complete!" 
+                                               FontWeight="Bold"
+                                               FontSize="20"
+                                               Foreground="#065F46"
+                                               HorizontalAlignment="Center"/>
+                                    <TextBlock Text="Transaction saved successfully" 
+                                               Foreground="#047857"
+                                               FontSize="14"
+                                               HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Panel>
+</Window>

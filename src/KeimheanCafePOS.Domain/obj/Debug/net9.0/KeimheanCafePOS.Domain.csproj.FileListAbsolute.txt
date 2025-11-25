@@ -1,0 +1,11 @@
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/bin/Debug/net9.0/KeimheanCafePOS.Domain.deps.json
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/bin/Debug/net9.0/KeimheanCafePOS.Domain.dll
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/bin/Debug/net9.0/KeimheanCafePOS.Domain.pdb
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.AssemblyInfoInputs.cache
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.AssemblyInfo.cs
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.csproj.CoreCompileInputs.cache
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.dll
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/refint/KeimheanCafePOS.Domain.dll
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/KeimheanCafePOS.Domain.pdb
+/Users/macbook/Documents/Keimhean.cafe/src/KeimheanCafePOS.Domain/obj/Debug/net9.0/ref/KeimheanCafePOS.Domain.dll

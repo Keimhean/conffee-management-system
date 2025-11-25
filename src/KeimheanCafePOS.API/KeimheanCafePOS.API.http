@@ -1,0 +1,6 @@
+@KeimheanCafePOS.API_HostAddress = http://localhost:5138
+
+GET {{KeimheanCafePOS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

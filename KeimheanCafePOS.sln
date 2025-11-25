@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{01A41A25-29C7-48E9-9255-9638EF86E466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeimheanCafePOS.API", "src\KeimheanCafePOS.API\KeimheanCafePOS.API.csproj", "{08A506C9-B458-494F-9791-231A762C2234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeimheanCafePOS.Domain", "src\KeimheanCafePOS.Domain\KeimheanCafePOS.Domain.csproj", "{97860949-2C5C-4391-AEBA-9279841FAC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeimheanCafePOS.Infrastructure", "src\KeimheanCafePOS.Infrastructure\KeimheanCafePOS.Infrastructure.csproj", "{76778841-6709-408B-BA68-40D7198E9D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeimheanCafePOS.Application", "src\KeimheanCafePOS.Application\KeimheanCafePOS.Application.csproj", "{597C91D6-FA0B-463A-B4E2-021D9AE91AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeimheanCafePOS.Desktop", "src\KeimheanCafePOS.Desktop\KeimheanCafePOS.Desktop.csproj", "{B3F13360-D63E-4023-8851-4C1ECD2AA38E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A506C9-B458-494F-9791-231A762C2234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A506C9-B458-494F-9791-231A762C2234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A506C9-B458-494F-9791-231A762C2234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A506C9-B458-494F-9791-231A762C2234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97860949-2C5C-4391-AEBA-9279841FAC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97860949-2C5C-4391-AEBA-9279841FAC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97860949-2C5C-4391-AEBA-9279841FAC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97860949-2C5C-4391-AEBA-9279841FAC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76778841-6709-408B-BA68-40D7198E9D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76778841-6709-408B-BA68-40D7198E9D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76778841-6709-408B-BA68-40D7198E9D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76778841-6709-408B-BA68-40D7198E9D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597C91D6-FA0B-463A-B4E2-021D9AE91AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597C91D6-FA0B-463A-B4E2-021D9AE91AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597C91D6-FA0B-463A-B4E2-021D9AE91AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597C91D6-FA0B-463A-B4E2-021D9AE91AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F13360-D63E-4023-8851-4C1ECD2AA38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F13360-D63E-4023-8851-4C1ECD2AA38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F13360-D63E-4023-8851-4C1ECD2AA38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F13360-D63E-4023-8851-4C1ECD2AA38E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08A506C9-B458-494F-9791-231A762C2234} = {01A41A25-29C7-48E9-9255-9638EF86E466}
+		{97860949-2C5C-4391-AEBA-9279841FAC09} = {01A41A25-29C7-48E9-9255-9638EF86E466}
+		{76778841-6709-408B-BA68-40D7198E9D5E} = {01A41A25-29C7-48E9-9255-9638EF86E466}
+		{597C91D6-FA0B-463A-B4E2-021D9AE91AD5} = {01A41A25-29C7-48E9-9255-9638EF86E466}
+		{B3F13360-D63E-4023-8851-4C1ECD2AA38E} = {01A41A25-29C7-48E9-9255-9638EF86E466}
+	EndGlobalSection
+EndGlobal
