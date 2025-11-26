@@ -94,9 +94,9 @@ public class ApplicationDbContext : DbContext
             
             // Tea
             new Product { Id = 11, Name = "Green Tea", Price = 2.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
-            new Product { Id = 12, Name = "Earl Grey", Price = 2.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1597318281699-3a108c3d1381?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 12, Name = "Earl Grey", Price = 2.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 13, Name = "Chai Latte", Price = 3.80m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
-            new Product { Id = 14, Name = "Matcha Latte", Price = 4.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1536013564249-9c83f0f97155?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 14, Name = "Matcha Latte", Price = 4.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             
             // Pastry
             new Product { Id = 15, Name = "Croissant", Price = 3.00m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
