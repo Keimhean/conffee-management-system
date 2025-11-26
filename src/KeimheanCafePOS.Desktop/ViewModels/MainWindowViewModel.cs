@@ -9,12 +9,15 @@ using KeimheanCafePOS.Desktop.Services;
 using Avalonia;
 using Avalonia.Platform;
 using System.IO;
+using System.Text.RegularExpressions;
+using Avalonia.Threading;
 
 namespace KeimheanCafePOS.Desktop.ViewModels;
 
 public partial class MainWindowViewModel : ObservableObject
 {
     private readonly ApiService _apiService;
+    private readonly ImageCacheService _imageCache = new();
 
     [ObservableProperty]
     private ObservableCollection<Product> _products = new();
@@ -77,9 +80,11 @@ public partial class MainWindowViewModel : ObservableObject
 
     private async Task InitializeAsync()
     {
+        // Load products first for immediate UI, then other data in parallel
         await LoadProductsAsync();
-        await LoadTransactionsAsync();
-        await LoadStatsAsync();
+        var txTask = LoadTransactionsAsync();
+        var statsTask = LoadStatsAsync();
+        await Task.WhenAll(txTask, statsTask);
     }
 
     partial void OnSelectedCategoryChanged(string value)
@@ -114,6 +119,11 @@ public partial class MainWindowViewModel : ObservableObject
             {
                 product.ImageUrl = local;
             }
+            else if (!string.IsNullOrWhiteSpace(product.ImageUrl) && IsRemoteUrl(product.ImageUrl))
+            {
+                // Use a lighter Unsplash variant to speed up initial render
+                product.ImageUrl = AdjustImageUrl(product.ImageUrl);
+            }
             // Debug: log resolved image URL for troubleshooting
             try
             {
@@ -121,8 +131,69 @@ public partial class MainWindowViewModel : ObservableObject
             }
             catch { }
             Products.Add(product);
+
+            // In background, cache remote images and switch to local file when available
+            if (!string.IsNullOrWhiteSpace(product.ImageUrl) && IsRemoteUrl(product.ImageUrl))
+            {
+                _ = CacheAndSwitchAsync(product);
+            }
         }
         FilterProducts();
+    }
+
+    private static bool IsRemoteUrl(string url)
+    {
+        return url.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ||
+               url.StartsWith("https://", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private async Task CacheAndSwitchAsync(Product product)
+    {
+        try
+        {
+            var url = AdjustImageUrl(product.ImageUrl);
+            var cached = await _imageCache.GetCachedPathAsync(url);
+            if (cached != null)
+            {
+                var fileUri = new Uri(cached).AbsoluteUri;
+                Dispatcher.UIThread.Post(() => { product.ImageUrl = fileUri; });
+            }
+        }
+        catch
+        {
+            // ignore caching errors
+        }
+    }
+
+    private string AdjustImageUrl(string url)
+    {
+        try
+        {
+            if (url.Contains("images.unsplash.com", StringComparison.OrdinalIgnoreCase))
+            {
+                url = ReplaceQueryParam(url, "w", "320");
+                url = ReplaceQueryParam(url, "q", "60");
+            }
+        }
+        catch { }
+        return url;
+    }
+
+    private static string ReplaceQueryParam(string url, string key, string value)
+    {
+        try
+        {
+            var pattern = $"([?&]){Regex.Escape(key)}=[^&]*";
+            if (Regex.IsMatch(url, pattern))
+            {
+                return Regex.Replace(url, pattern, $"$1{key}={value}");
+            }
+            return url + (url.Contains("?") ? "&" : "?") + $"{key}={value}";
+        }
+        catch
+        {
+            return url;
+        }
     }
 
     private string? GetLocalImageUri(string productName)
