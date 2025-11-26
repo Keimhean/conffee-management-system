@@ -15,7 +15,7 @@ Keimhean Cafe POS — Point-of-sale application for coffee shops built with Aval
 
 <!-- Screenshot(s): added login and desktop images -->
 ![Login Screenshot](public/images/Login.png)
-![Desktop POS Screenshot](public/images/Dektop.png)
+![Desktop POS Screenshot](public/images/Web.png)
 
 Point-of-sale application for Keimhean Cafe — API, Desktop client, Web front-end.
 
