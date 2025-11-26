@@ -108,7 +108,47 @@ public class ApplicationDbContext : DbContext
             new Product { Id = 19, Name = "Chocolate Chip Cookie", Price = 2.00m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 20, Name = "Brownie", Price = 3.50m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 21, Name = "Macarons", Price = 4.50m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
-            new Product { Id = 22, Name = "Donut", Price = 2.80m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) }
+            new Product { Id = 22, Name = "Donut", Price = 2.80m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            
+            // More Coffee
+            new Product { Id = 23, Name = "Flat White", Price = 3.80m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 24, Name = "Cortado", Price = 3.30m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 25, Name = "Macchiato", Price = 3.00m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 26, Name = "Affogato", Price = 5.50m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1578374173703-14c49d07ac86?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 27, Name = "Irish Coffee", Price = 6.50m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1514066558159-fc8c737ef259?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 28, Name = "Vietnamese Coffee", Price = 4.80m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1562095241-8c6714fd4178?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 29, Name = "Nitro Cold Brew", Price = 5.00m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 30, Name = "Spanish Latte", Price = 4.50m, Category = "Coffee", ImageUrl = "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            
+            // More Tea
+            new Product { Id = 31, Name = "Jasmine Tea", Price = 3.00m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 32, Name = "Oolong Tea", Price = 3.20m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1566316308710-e92d63ac0ddd?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 33, Name = "White Tea", Price = 3.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 34, Name = "Rooibos Tea", Price = 3.00m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 35, Name = "Chamomile Tea", Price = 3.00m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1597318281699-3a108c3d1381?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 36, Name = "Peppermint Tea", Price = 2.80m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1563822249366-51b66a2e6734?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 37, Name = "Thai Iced Tea", Price = 4.00m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1591255423374-c49cf6cd0db5?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 38, Name = "Bubble Tea", Price = 5.50m, Category = "Tea", ImageUrl = "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            
+            // More Pastry
+            new Product { Id = 39, Name = "Pain au Chocolat", Price = 3.20m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1623334044303-241021148842?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 40, Name = "Cinnamon Roll", Price = 3.80m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 41, Name = "Danish Pastry", Price = 3.50m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 42, Name = "Scone", Price = 2.80m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1580743233886-32e4e8f49448?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 43, Name = "Banana Bread", Price = 3.20m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1593002871058-f8499c6e5d71?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 44, Name = "Carrot Cake", Price = 5.20m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 45, Name = "Red Velvet Cake", Price = 5.80m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1586985289565-819ab7c8d03b?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 46, Name = "Tiramisu", Price = 6.00m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            
+            // More Snacks
+            new Product { Id = 47, Name = "Oatmeal Cookie", Price = 2.20m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 48, Name = "Sugar Cookie", Price = 2.00m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 49, Name = "Peanut Butter Cookie", Price = 2.30m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1590080876876-6e7a1bb75d3f?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 50, Name = "Biscotti", Price = 2.50m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1590772134464-51bb8d4c63ad?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 51, Name = "Granola Bar", Price = 2.80m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1583484908420-29cd4282e6c2?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 52, Name = "Chocolate Truffle", Price = 3.80m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 53, Name = "Pretzel", Price = 2.50m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 54, Name = "Muffin Chocolate", Price = 3.50m, Category = "Snack", ImageUrl = "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) }
         );
     }
 
