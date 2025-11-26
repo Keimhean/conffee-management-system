@@ -62,7 +62,7 @@ public partial class MainWindowViewModel : ObservableObject
 
     public ObservableCollection<CategoryItem> Categories { get; } = new()
     {
-        new CategoryItem { Name = "All", IconPath = IconBase + "cart.svg" },
+        new CategoryItem { Name = "All", IconPath = IconBase + "cart.svg", IsSelected = true },
         new CategoryItem { Name = "Coffee", IconPath = IconBase + "coffee-icon.svg" },
         new CategoryItem { Name = "Tea", IconPath = IconBase + "tea.svg" },
         new CategoryItem { Name = "Pastry", IconPath = IconBase + "Pastry.svg" },
@@ -337,6 +337,12 @@ public partial class MainWindowViewModel : ObservableObject
     private void SelectCategory(string category)
     {
         SelectedCategory = category;
+        
+        // Update IsSelected for all categories
+        foreach (var cat in Categories)
+        {
+            cat.IsSelected = cat.Name == category;
+        }
     }
 }
 
