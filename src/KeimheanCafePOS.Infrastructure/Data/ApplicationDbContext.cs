@@ -135,9 +135,9 @@ public class ApplicationDbContext : DbContext
             new Product { Id = 40, Name = "Cinnamon Roll", Price = 3.80m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 41, Name = "Danish Pastry", Price = 3.50m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 42, Name = "Scone", Price = 2.80m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
-            new Product { Id = 43, Name = "Banana Bread", Price = 3.20m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1593002871058-f8499c6e5d71?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 43, Name = "Banana Bread", Price = 3.20m, Category = "Pastry", ImageUrl = "https://www.pngall.com/wp-content/uploads/5/Chocolate-Cake-PNG-Free-Download.png", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 44, Name = "Carrot Cake", Price = 5.20m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
-            new Product { Id = 45, Name = "Red Velvet Cake", Price = 5.80m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1586985289565-819ab7c8d03b?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
+            new Product { Id = 45, Name = "Red Velvet Cake", Price = 5.80m, Category = "Pastry", ImageUrl = "https://pngimg.com/uploads/cake/cake_PNG13097.png", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             new Product { Id = 46, Name = "Tiramisu", Price = 6.00m, Category = "Pastry", ImageUrl = "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80", CreatedAt = new DateTime(2025,11,23,9,39,43, DateTimeKind.Utc) },
             
             // More Snacks
