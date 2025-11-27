@@ -360,7 +360,7 @@
                         <!-- Logo Section -->
                         <StackPanel Grid.Column="0" Orientation="Horizontal" Spacing="16">
                             <Border Width="88" Height="88" CornerRadius="44" Background="#FFFFFF" Padding="8" BorderBrush="#E5E7EB" BorderThickness="1">
-                                <Image Source="avares://KeimheanCafePOS.Desktop/Assets/icons/photo/mylogo.png" Stretch="Uniform"/>
+                                <Image Source="avares://KeimheanCafePOS.Desktop/Assets/icons/photo/logo.png" Stretch="Uniform"/>
                             </Border>
 
                             <StackPanel VerticalAlignment="Center" Spacing="4">
