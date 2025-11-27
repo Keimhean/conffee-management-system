@@ -273,25 +273,8 @@
                                        FontWeight="Bold"/>
                         </Button>
 
-                        <!-- Sign up link -->
-                        <StackPanel Orientation="Horizontal" 
-                                    HorizontalAlignment="Center"
-                                    Spacing="4"
-                                    Margin="0,12,0,0">
-                            <TextBlock Text="Don't have an account ?" 
-                                       FontSize="13"
-                                       Foreground="White"
-                                       Opacity="0.8"/>
-                            <TextBlock Text="Sing up" 
-                                       FontSize="13"
-                                       Foreground="White"
-                                       FontWeight="Bold"
-                                       TextDecorations="Underline"
-                                       Cursor="Hand"/>
                         </StackPanel>
                     </StackPanel>
-
-                </StackPanel>
             </ScrollViewer>
         </Border>
     </Panel>
